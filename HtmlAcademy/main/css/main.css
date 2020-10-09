@@ -1,0 +1,424 @@
+@font-face {
+	font-family: Open Sans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: Spectral SC;
+	src: url(../fonts/SpectralSC-Bold.ttf);
+}
+@font-face {
+	font-family: Open Sans italic;
+	src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+
+body{
+	margin: 0 auto;
+}
+
+header{
+	background-image: url(../img/sonnie-h.png );
+	background-repeat: no-repeat;	/* запрещает повтор фона */
+	background-size: 100%;  /* растягивает фон на весь экран */
+	height: 780px;
+	object-position: bottom; 
+}
+
+.header_logo{
+	padding: 4px 0px 0px 120px;
+}
+
+.header_logo__menu{
+	margin-top: -67px;
+}
+
+.header_logo__menu ul{
+	display: block;
+	text-align: right;
+	list-style: none;
+}
+.header_logo__menu li {
+	padding-right: 80px; 
+	display: inline-block;
+}
+a{
+	font-family: Open Sans;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+#header__menu{
+	padding-right: 121px;
+}
+
+section{
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+.articles h1{
+	font-family: Spectral SC;
+	font-size: 36px;
+	margin-left: 4%;
+}
+
+.articles_topic{
+	margin-left: 77%;
+	margin-right: 50px;
+	width: 240px;
+	margin-top: -60px;
+	display: block;
+	font-family: Open Sans;
+	font-size: 16px;
+	color: #2e2f22;
+	border: 1px solid #d7d1c9;
+/*	padding: 12px 0px 12px 12px;*/
+	border-radius: 20px;
+	background-color: #d7d1c9;
+}
+
+.articles_topic img {
+	/*padding: 0px 19px 0px 33px;*/
+	padding-left: 30px;
+	margin-top: 0px;
+}
+
+#a1 {
+	border-radius: 20px;
+}
+
+
+			/* убираем отступы и поля, а также list-style для "ul", 
+			 * и добавляем "position:relative" */
+			.articles_topic__activ nav ul {
+			    padding:0;
+			    margin:0;
+			    list-style: none;
+			    position: relative;
+			    }
+			
+			/* применяем inline-block позиционирование к элементам навигации */
+			.articles_topic__activ nav ul li {
+			    display:inline-block;
+			    background-color: #d7d1c9;
+			    }
+			
+			/* стилизуем ссылки */
+			.articles_topic__activ nav a {
+			    display:block;
+			    padding:1px 20px 0px 20px;
+			    color: black;
+			    font-size:20px;
+			    line-height: 60px;
+			    text-decoration:none;
+			}
+
+		/* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование */
+			.articles_topic__activ nav ul ul {
+			    display: none;
+			    position: absolute;
+			  
+			}
+			
+			/* отображаем выпадающий список при наведении */
+			.articles_topic__activ nav ul li:hover > ul {
+			    display:inherit;
+			}
+			
+			/* первый уровень выпадающего списка */
+			.articles_topic__activ nav ul ul li {
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			    margin-left: 20px;
+			}
+
+.articles_all {
+	display: flex;
+	justify-content: center;
+/*	text-align: center;*/
+}
+
+.articles_all h1{
+	padding-top: 27px;
+	font-size: 18px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.articles_all p {
+	font-family: Open Sans;
+	font-size: 16px;
+}
+
+.articles_all img{
+	border-radius: 20px;
+}
+
+.articles_all__berlin {
+	padding-right: 22px;
+}
+.articles_all__recommendations {
+	padding-left: 22px;
+}
+.articles_all__tegs{
+	color: rgb(46, 47, 34, 0.7);
+	font-family: Open Sans;
+	font-size: 16px;
+}
+
+.articles_all__tegs span{
+	padding-left: 30%;
+	text-align: right;
+	margin-top: -22px;
+}
+
+
+
+.articles_bottom {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.articles_bottom h1{
+	font-family: Spectral SC;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.articles_bottom p{
+	font-family:  Open Sans;
+	font-size: 18px;
+	padding-right: 95px;
+}
+
+.articles_bottom__picture {
+	justify-content: center;
+	padding-left: 82px;
+	padding-top: 359px;
+	font-family: Spectral SC;
+	font-size: 20px;
+	background-image: url(../img/picture.png);
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.articles_bottom__cheesecake {
+	justify-content: center;
+	padding-left: 82px;
+	padding-top: 359px;
+	font-family: Spectral SC;
+	font-size: 20px;
+	background-image: url(../img/cheesecake.png);
+	border-radius: 20px;
+}
+
+.articles_bottom__tegs {
+	color: rgb(255,255,255, 0.7);
+	font-family: Open Sans;
+	font-size: 16px;
+	text-align-last: left;
+}
+
+.articles_bottom__tegs span{
+	display: block;
+	text-align: right;
+	margin-top: -22px;
+	margin-left: 200px;
+}
+
+
+.articles_bottom__next {
+	border: 2px solid black;
+	padding: 12px 27px 12px 27px;
+	font-family: Open Sans;
+	font-size: 16px;
+	margin: 100px 39% 0px 39%;
+	border-radius: 10px;
+}
+
+.articles_bottom__next h1 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.about {
+/*	margin-top: 5%;
+	margin-left: 10%;*/
+}
+
+.about h1{
+	text-align-last: center;
+	font-family:  Spectral SC ;
+	font-size: 36px;
+	padding: 50px 0px 30px 0px;
+}
+
+.about_all {
+	display: flex;
+	margin-left: 5%;
+}
+
+.about_all__text {
+	font-size: 16px;
+	font-family: Open Sans;
+	margin-top: 21px;
+	padding-left: 40px;
+}
+
+.about_all__text p {
+	padding-top: 25px;
+}
+
+.about_all__text_special {
+	border-left: 3px solid #d7d1c9;
+	padding-left: 20px;
+	font-family: Open Sans italic;
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+
+.portfolio h1 {
+	text-align-last: center;
+	font-size: 36px;
+	font-family: Spectral SC;
+/*	margin: 20px 0px 50px 0px;*/
+	padding: 50px 0px 30px 0px; 
+}
+.portfolio_block {
+	margin-left: 5%;
+	display: flex;
+	/*text-align-last: center;*/
+}
+
+.portfolio_block h1 {
+	font-size: 20px;
+	font-family: Spectral SC;
+	padding: 140px 89px 44px 73px;
+}
+
+.portfolio_block h2 {
+	font-size: 18px;
+	font-family: Spectral SC;
+	padding: 0px 60px 0px 43px;
+}
+
+.portfolio_block p {
+	font-size: 16px;
+	font-family: Open Sans;
+	padding: 17px 63px 188px 47px;
+}
+
+.portfolio_block__academy {
+	border-radius: 10px;
+	background-image: url(../img/Maskoup.jpg);
+	width: 387px;
+	height: 525px;
+	text-align-last: center;
+}
+.portfolio_block__lnk {
+	margin: 0px 2% 0px 2%;
+	border-radius: 10px;
+	background-image: url(../img/image7.png);
+	width: 387px;
+	height: 525px;
+	color: white;
+}
+.portfolio_block__lnk h2 {
+	padding: 0px 26px 0px 25px;
+	text-align-last: center;
+}
+.portfolio_block__t-l {
+	border-radius: 10px;
+	background-image: url(../img/image9.png);
+	width: 387px;
+	height: 525px;
+}
+.portfolio_block__t-l h2{
+	text-align-last: center;
+}
+
+
+.forms{
+	background-image: url(../img/Maskroup1.png);
+	background-repeat: no-repeat;
+	margin-left: 12%;
+	border-radius: 10px;
+}
+.forms div {
+	border-radius: 10px;
+}
+
+#mi {
+	font-size: 36px;
+	font-family: Spectral SC;
+	text-align-last: center;
+	margin: 85px 0px 50px 0px;
+}
+
+form {
+	border-radius: 10px;
+	padding: 53px 0px 12px 81px;
+}
+
+form p {
+	font-size: 18px;
+	font-family: Spectral SC;
+}
+.Email {
+	padding-left: 40%;
+}
+.name {
+	padding: 21px 213px 20px 20px;
+	border-radius: 10px;
+	background-color: rgb(220,220,220, 0.3);
+	border: 2px solid black;
+}
+.Email_form {
+	padding: 21px 216px 20px 19px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background-color: rgb(220,220,220, 0.3);
+	border: 2px solid black;
+}
+
+.textarea {
+	background-color: rgb(220,220,220, 0.3);
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.form_posi  {
+	padding-bottom: 50px; 
+}
+
+.form__next {
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align-last: center;
+	margin: 20px 45% 0px 33%;
+}
+
+.footer_menu {
+	background-color: #d7d1c9;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Open Sans;
+	text-align-last: center;
+	margin: 81px 0px 0px 0px;
+}
+.footer_menu ul{
+	display: block;
+	list-style: none;
+}
+
+.footer_menu li {
+	display: inline-block;
+	padding: 65px 170px 91px 0px;
+}

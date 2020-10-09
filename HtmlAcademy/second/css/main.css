@@ -1,0 +1,193 @@
+@font-face {
+	font-family: Open Sans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: Spectral SC;
+	src: url(../fonts/SpectralSC-Bold.ttf);
+}
+@font-face {
+	font-family: Open Sans italic;
+	src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+body{
+	margin: 0 auto;
+}
+
+header{
+	background-image: url(../img/samuel-scriash1.png);
+	background-repeat: no-repeat;	/* запрещает повтор фона */
+	background-size: 100%;  /* растягивает фон на весь экран */
+	height: 780px;
+	object-position: bottom; 
+}
+
+.header_logo{
+	padding: 4px 0px 0px 120px;
+}
+
+.header_logo__menu{
+	margin-top: -67px;
+}
+
+.header_logo__menu ul{
+	display: block;
+	text-align: right;
+	list-style: none;
+}
+.header_logo__menu li {
+	padding-right: 80px; 
+	display: inline-block;
+}
+a{
+	font-family: Open Sans;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+#header__menu{
+	padding-right: 121px;
+}
+
+section{
+	margin-left: 15%;
+	margin-right: 30%;
+
+}
+
+
+.motivation {}
+.motivation h1 {
+	font-size: 36px;
+	font-family: Spectral SC;
+}
+.motivation_tegs {
+	font-size: 16px;
+	font-family: Open Sans;
+	color: rgb(46, 47, 34, 0.7);
+}
+.motivation_data {
+	color: rgb(46, 47, 34, 0.7);
+	padding-left: 2%;
+	font-size: 16px;
+	font-family: Open Sans;
+}
+.motivation p {
+	font-size: 16px;
+	font-family: Open Sans;
+	color: #2e2f22;
+	padding-bottom: 40px;
+}
+.motivation_img__text {
+	font-size: 14px;
+	font-family: Open Sans;
+}
+.motivation_social {
+	font-size: 28px;
+	font-family: Open Sans;
+}
+.motivation_social__tvfbvk {
+	padding-left: 64%;
+}
+.motivation_social__tvfbvk img {
+	padding-left: 32px;
+}
+
+.motivation_next img{
+	padding-left: 26px;
+	padding-bottom: 3px;
+}
+
+.coments {
+	background-color: #ece1e1;
+	margin-right: 25%;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+.coments_old span{
+	margin-top: 18px;
+	margin-left: 13px;
+	position: absolute;
+}
+.coments_old p {
+	margin: 14px 0px 3px 0px;
+	padding-bottom: 20px;
+}
+.coments_new{
+	background-color: white;
+	margin-top: 77px;
+}
+.coments_new h1 {
+	font-size: 24px;
+	font-family: Open Sans;
+	margin-left: 10%;
+}
+form {
+	margin-top: 77px;
+	margin-left: 10%;
+	}
+.name {
+	margin-top: 69px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding-bottom: 15px;
+	font-size: 16px;
+	font-family: Open Sans;
+	border-bottom: 1px solid #2e2f22;
+}
+.Email_form {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding-bottom: 15px;
+	position: absolute;
+	margin-top: 35px;
+	font-size: 16px;
+	font-family: Open Sans;
+	border-bottom: 1px solid #2e2f22;
+}
+.textarea {
+	margin-left: 27%;
+/*	margin-top: -4%;*/
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: Open Sans;
+	border: 1px solid #2e2f22;
+	padding: 20px 0px 0px 20px;
+}
+
+.to_send {
+	position: absolute;
+	font-size: 16px;
+	font-family: Open Sans;
+	border: 1px solid #2e2f22;
+	padding: 12px 49px 12px 49px;
+	border-radius: 10px;
+	margin-left: -35.8%;
+	margin-top: 6.7%;
+}
+
+
+
+
+
+.footer_menu {
+	background-color: #d7d1c9;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Open Sans;
+	text-align-last: center;
+	margin: 81px 0px 0px 0px;
+}
+.footer_menu ul{
+	display: block;
+	list-style: none;
+}
+
+.footer_menu li {
+	display: inline-block;
+	padding: 65px 170px 91px 0px;
+}
