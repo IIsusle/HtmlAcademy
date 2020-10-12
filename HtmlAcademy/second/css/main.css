@@ -1,14 +1,14 @@
 @font-face {
 	font-family: Open Sans;
-	src: url(../fonts/OpenSans-Regular.ttf);
+	src: url(../../main/fonts/OpenSans-Regular.ttf);
 }
 @font-face {
 	font-family: Spectral SC;
-	src: url(../fonts/SpectralSC-Bold.ttf);
+	src: url(../../main/fonts/SpectralSC-Bold.ttf);
 }
 @font-face {
 	font-family: Open Sans italic;
-	src: url(../fonts/OpenSans-Italic.ttf);
+	src: url(../../main/OpenSans-Italic.ttf);
 }
 
 body{
@@ -79,6 +79,9 @@ section{
 	font-family: Open Sans;
 	color: #2e2f22;
 	padding-bottom: 40px;
+}
+.motivation_img {
+	object-position: right;
 }
 .motivation_img__text {
 	font-size: 14px;
@@ -161,6 +164,7 @@ form {
 
 .to_send {
 	position: absolute;
+	display: table-row;
 	font-size: 16px;
 	font-family: Open Sans;
 	border: 1px solid #2e2f22;
